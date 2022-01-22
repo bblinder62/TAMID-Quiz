@@ -1,3 +1,4 @@
+<h1>TAMID Tech Coding Assignment</h1>
 This is the TAMID Tech Coding Assignment for Benjamin Blinder.
 
 To create this page, I used the NodeJS and BootStrap frameworks as well as some standard CSS, HTML, and JavaScript.
