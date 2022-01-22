@@ -1,0 +1,44 @@
+<%- include('bootheader') -%>
+<script>
+    function Alert() {
+        alert("Your selection has been submitted");
+
+    }
+</script>
+
+
+
+<div class="quiz w-75 mx-auto">
+    <div class="jumbotron text-center" style="background-color: #00EA00; border-top:5px solid #009D00" >
+    <h1>My Simple Quiz</h1>
+    <br>
+    </div>
+
+    <div class="space">
+        <br>
+    </div>
+
+    <div style="border-top:5px solid #009D00">
+        <form method="post" action="/submit">
+            <h3 style="padding-left: 15px; padding-right: 15px;">What is your favorite programming language?</h3>
+            <br>
+            <div class="answers" onclick="">
+            <h4>
+                <input type="radio" name="choice" value="python" style="border:100%; width:17px; height: 17px;">  Python <br>
+                <input type="radio" name="choice" value="java" style="border:100%; width:17px; height: 17px;">  Java <br>
+                <input type="radio" name="choice" value="javascript" style="border:100%; width:17px; height: 17px;">  JavaScript <br>
+                <input type="radio" name="choice" value="c++" style="border:100%; width:17px; height: 17px;">  C++ <br>
+            </h4>
+            </div>
+
+            <div class="row" style="padding-left: 50px; padding-right: 50px; background-color: #d1ffd1;">
+                <input type="submit" class="btn btn-lg btn-danger" value="Submit" onclick="Alert()">
+            </div>
+        </form>
+        
+    </div>
+</div>
+
+
+
+<%- include('bootfooter') -%>

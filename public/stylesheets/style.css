@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #d1ffd1;
+}
+
+.quiz{
+  background-color: #F1FFF1;
+}
+.space{
+  background-color: #d1ffd1;
+}
+.question{
+  border-top:5px solid #009D00;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.answers{
+  padding-left: 150px;
+  padding-right: 30px;
+}
